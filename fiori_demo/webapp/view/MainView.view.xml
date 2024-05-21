@@ -1,0 +1,11 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.fioridemo.controller.MainView" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <List noDataText="Drop list items here" id="list0" items="{/TravelProcessor}">
+                <items>
+                    <StandardListItem type="Navigation" title="{CustomerName}" description="{Description} {AgencyName} {TravelStatus}" icon="sap-icon://picture" id="item0"/>
+                </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>
